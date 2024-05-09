@@ -1,23 +1,3 @@
-// const div= document.getElementById("task-list-item");
-// const head= document.getElementById("heading");
-
-// head.textContent="Task-1"
-
-// const head1= document.getElementById("heading-5");
-// head1.textContent="Task-2"
-
-// const head2= document.getElementById("heading-6");
-// head2.textContent="Task-3"
-
-// const head3= document.getElementById("heading-7");
-// head3.textContent="Task-4"
-
-
-// div.innerHTML="";
-
-
-// const div1= document.getElementById("task-list-item2");
-// div1.innerHTML=""
 
 
 const taskList= document.getElementById("task-list");
