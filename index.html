@@ -14,9 +14,9 @@
 <body>
     <div class="main-container">
         <div class="card-container">
-            <i class="fa-solid fa-clipboard-list fa-xl list-icon"></i>
-            <input class="input-field" type="text" placeholder="Type Your To-Do List">
-            <i class="fa-solid fa-circle-plus fa-xl add-icon"></i>
+            <i class="fa-solid fa-clipboard-list fa-xl list-icon" ></i>
+            <input id="input-field" type="text" placeholder="Type Your To-Do List">
+            <i class="fa-solid fa-circle-plus fa-xl" id="add-icon"></i>
         </div>
 
         <div class="second-container">
@@ -29,7 +29,13 @@
         </div>
        
         <hr class="one">
-
+        <div id="task-list" class="scroller">
+           <!-- <div id="task-list-item">
+            <input type="checkbox" style="margin-right: 15px;">
+            <h4 id="heading"></h4>
+            <i class="fa-regular fa-circle-xmark " style="color: #fbf0a7;"></i>
+          </div>  -->
+        </div>
 
 
         <hr class="two">
@@ -37,7 +43,7 @@
         <div class="fourth-container">
            <div class="anything-2">
            
-            <h5>tasks left</h5>
+            <h5 id="task-remaining">tasks left</h5>
            </div> 
            <div class="anything-3">
             <h5 class="heading-3">All</h5>
@@ -51,7 +57,8 @@
     </div>
 
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>

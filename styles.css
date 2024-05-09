@@ -19,11 +19,12 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    border-radius: 20px 20px 20px 20px;
     
 }
 
 
-.input-field
+#input-field
 {
     padding: 20px;
     width: 30vw;
@@ -59,13 +60,13 @@ input::placeholder
     
 }
 
-.card-container .add-icon
+.card-container #add-icon
 {
    position: relative;
    right: 35px;
    top: 45px;
    
-   display: none;
+   cursor: pointer;
  
 }
 
@@ -126,6 +127,52 @@ input::placeholder
     background-color: #00224D;
     height: 2px;
     border-width: 0px;   
+}
+
+#task-list
+{
+    width: 35vw;
+    height: auto;
+    position: absolute;
+    max-height: 30vh;
+    
+    
+    top: 190px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.scroller
+{
+    overflow-y: scroll;
+    scrollbar-color: #163020  #29ADB2;
+    
+}
+
+
+
+#task-list-item
+{
+  
+    margin-left: 20px;
+   padding-top: 5px;
+    font-size: 20px;
+    color: #00224D;
+    width: 32vw;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+#task-list-item i
+{
+    display: inline;
+    margin-right: 70px;
+    cursor: pointer;
 }
 
 .two
@@ -193,4 +240,11 @@ input::placeholder
 {
     color: black;
     
+}
+
+#heading
+{
+    margin-block-start: 0; 
+    margin-block-end: 0;
+    margin-left: -270px;
 }
